@@ -1,1 +1,1 @@
-select title from books ,publisher where books.publisher=publisher.id and publisher.name ='PHI';
+select b.title from books b, publisher p where p.id = b.publisher and p.name = "PHI";
